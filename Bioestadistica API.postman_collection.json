@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "5d8104c8-d409-4531-ab14-6279f47c4ea4",
+		"name": "Bioestadistica API",
+		"description": "Collection of API requests for the Bioestadistica project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "565600"
+	},
+	"item": [
+		{
+			"name": "Get All Departamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/departamentos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Pacientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/pacientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pacientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pacientes by Departamento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/pacientes/por-departamento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pacientes",
+						"por-departamento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pacientes by Grupo Etario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/pacientes/por-grupo-etario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pacientes",
+						"por-grupo-etario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Examenes Medicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/examenes-medicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"examenes-medicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Examenes Medicos by Tipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/examenes-medicos/por-tipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"examenes-medicos",
+						"por-tipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Diagnosticos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/diagnosticos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"diagnosticos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Diagnosticos by Tipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/diagnosticos/por-tipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"diagnosticos",
+						"por-tipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Diagnosticos by Departamento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/diagnosticos/por-departamento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"diagnosticos",
+						"por-departamento"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
