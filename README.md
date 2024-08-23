@@ -1,5 +1,5 @@
 
-# Project Title
+# Biostatistics Backend Project - Laravel
 
 [![Laravel](https://img.shields.io/badge/Laravel-8.x-orange)](https://laravel.com/)
 
